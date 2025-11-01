@@ -25,21 +25,21 @@ author:
   avatar           : "profile.png"
   name             : "Niharika Shrivastava"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "I am Niharika Shrivastava, a final-year BS–MS Physics student at the Indian Institute of Science Education and Research (IISER) Bhopal, with a strong research background in data-driven astronomy, dark matter phenomenology, and astrophysical data analysis. My research experience spans observational, computational, and theoretical astrophysics — from analyzing MeV gamma-ray emissions in red dwarfs (published in JCAP) to modeling galaxy rotation curves using MCMC techniques and studying triplet extensions of the Standard Model for dark matter candidates."
+  location         : "Bhopal, Madhya Pradesh"
+  employer         : "IISER Bhopal"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "niharikas21@iiserb.ac.in" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=8QoCAjQAAAAJ&hl=en&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  # orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/nebula-22"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -80,8 +80,6 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
