@@ -22,7 +22,7 @@ repository               : "nebula-22/nebula-22.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "IMG-20240608-WA0077.jpeg"
   name             : "Niharika Shrivastava"
   pronouns         : # example: "she/her"  
   bio              : "I am Niharika Shrivastava, a final-year BS–MS Physics student at the Indian Institute of Science Education and Research (IISER) Bhopal, with a strong research background in data-driven astronomy, dark matter phenomenology, and astrophysical data analysis."
@@ -53,7 +53,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : 'niharika-shrivastava-23203a226'
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
