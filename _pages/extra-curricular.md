@@ -18,13 +18,13 @@ author_profile: true
 </div>
 
 <div class="activity">
-  <img src="/images/openHouse.jpg" alt="Physics Club" style="width:100%; border-radius:12px; margin-bottom:10px;" />
+  <img src="/images/openHouse.png" alt="Physics Club" style="width:100%; border-radius:12px; margin-bottom:10px;" />
   <p><strong>Core Member, Physics Club (2022–2023)</strong><br>
   Organised seminars, problem-solving sessions, and interactive workshops for students interested in theoretical and experimental physics.</p>
 </div>
 
 <div class="activity">
-  <img src="/images/Open House2.jpg" alt="Computational Team" style="width:100%; border-radius:12px; margin-bottom:10px;" />
+  <img src="/images/Open House2.png" alt="Computational Team" style="width:100%; border-radius:12px; margin-bottom:10px;" />
   <p><strong>Computational Team Member, IISER Bhopal Astronomy Research Group (2023–2024)</strong><br>
   Contributed to computational modelling, data processing, and developing tools for astronomy research projects.</p>
 </div>
