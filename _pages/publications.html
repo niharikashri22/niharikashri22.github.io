@@ -15,25 +15,9 @@ author_profile: true
 <ul>
   <li>"Dark Matter and Collider Phenomenology in Triplet Extensions" – preprint (Nov 2025). <a href="https://arxiv.org">Link to appear</a></li>
   <li>"Search for MeV gamma-ray emission from TeV bright red dwarfs with COMPTEL", JCAP 09 (2024) 029. <a href="https://arxiv.org/abs/2407.01060">arXiv:2407.01060</a></li>
+  <p><strong>Abstract (JCAP 2024 paper):</strong> The SHALON atmospheric Cherenkov telescope has detected very high energy gamma-ray emission at TeV energies from eight red dwarfs, namely, V388 Cas, V547 Cas, V780 Tau, V962 Tau, V1589 Cyg, GJ 1078, GJ 3684 and GL 851.1. Consequently, these red dwarfs have been suggested as sources of ultra-high energy cosmic rays. In this work, we search for soft gamma-ray emission from these TeV bright red dwarfs between 0.75–30 MeV using archival data from the COMPTEL gamma-ray imaging telescope, as a follow-up to a similar search for GeV gamma-ray emission using the Fermi-LAT telescope. Although we detect non-zero photon flux from three red dwarfs with high significance, these signals can be attributed to contamination from nearby bright sources such as Crab and Cygnus. Therefore, we do not detect any statistically significant signal (>3σ) from any of the eight red dwarfs. We report the 95% confidence level upper limits on the differential photon flux (at 30 MeV), integral photon flux, and integral energy flux for all sources, with energy flux limits in the range 10⁻¹¹–10⁻¹⁰ erg/cm²/s.</p>
 </ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+
+
+
