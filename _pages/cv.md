@@ -39,7 +39,7 @@ redirect_from:
   }
 </style>
 
-<a href="{{ base_path }}/files/cv.pdf" class="download-button" download>Download CV (PDF)</a>
+<a href="{{ base_path }}/files/niharika_shrivastava_cv.pdf" class="download-button" download>Download CV (PDF)</a>
 
 <div class="pdf-container">
   <iframe src="{{ base_path }}/files/cv.pdf" type="application/pdf">
