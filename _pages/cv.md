@@ -42,7 +42,7 @@ redirect_from:
 <a href="{{ base_path }}/files/niharika_shrivastava_cv.pdf" class="download-button" download>Download CV (PDF)</a>
 
 <div class="pdf-container">
-  <iframe src="{{ base_path }}/files/cv.pdf" type="application/pdf">
+  <iframe src="{{ base_path }}/files/niharika_shrivastava_cv.pdf" type="application/pdf">
     <p>Your browser does not support PDFs. <a href="{{ base_path }}/files/cv.pdf">Download the PDF</a>.</p>
   </iframe>
 </div>
