@@ -11,5 +11,5 @@ I am a Physics major in the final year of my BS-MS at IISER Bhopal, where my res
 
 As I now look toward pursuing a PhD in astronomy, astroparticle physics, or cosmology, I am eager to join a dynamic research environment that values curiosity, rigor, and innovation.
 
-Outside academics, I’ve enjoyed contributing to the IISER Astronomy Club as a coordinator, organizing events, mentoring juniors, and engaging in public outreach—experiences that have shaped me into a collaborative and enthusiastic young researcher. In my free time, I enjoy cycling, dancing and reading.
+Outside academics, I’ve enjoyed contributing to the IISER Astronomy Club as a coordinator, organizing events, mentoring juniors, and engaging in public outreach, experiences that have shaped me into a collaborative and enthusiastic young researcher. In my free time, I enjoy cycling, dancing and reading.
 
