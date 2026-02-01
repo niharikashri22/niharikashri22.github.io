@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: https://github.com/niharikashri22/niharikashri22.github.io/blob/master/files/niharika_shrivastava_cv.pdf
 author_profile: true
 redirect_from:
   - /resume
