@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Physics major in the final year of my BS-MS at IISER Bhopal, where my research has grown at the intersection of astrophysics and particle physics. From probing dark matter candidates in triplet extensions of the Standard Model to modeling galaxy rotation curves from the MAGPI survey and leading a published search for MeV gamma rays from red dwarfs, I have developed a strong passion for understanding the Universe through both theoretical and data-intensive methods.
+I am a Physics major in the final year of my BS-MS at IISER Bhopal, where my research straddles the boundaries between astrophysics and particle physics. From probing dark matter candidates in triplet extensions of the Standard Model to modeling galaxy rotation curves from the MAGPI survey and leading a published search for MeV gamma rays from red dwarfs, I have developed a strong passion for understanding the Universe through both theoretical and data-intensive methods.
 
 As I now look toward pursuing a PhD in astronomy, astroparticle physics, or cosmology, I am eager to join a dynamic research environment that values curiosity, rigor, and innovation.
 
