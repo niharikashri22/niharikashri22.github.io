@@ -4,411 +4,325 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
-
-# Research Projects
-
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
 ---
 
-## Current Projects
-
-### Dark Matter and Collider Phenomenology in Triplet Extensions of Standard Model
-**Master's Thesis** | May 2024 – Present  
-**Supervisor:** Dr. Rahul Srivastava, Assistant Professor, IISER Bhopal
-
-#### Overview
-Investigating viable dark matter candidates in Beyond Standard Model (BSM) frameworks, specifically focusing on scalar and fermion triplet extensions of the Standard Model with hypercharge Y = 2. This work explores the intersection of particle physics and cosmology by examining how dark matter candidates manifest in both cosmological observations and high-energy collider experiments.
-
-#### Key Objectives
-- Identify and characterize viable dark matter candidates in SU(2)_L triplet extensions
-- Calculate relic density predictions and compare with PLANCK observations
-- Analyze direct detection prospects through nuclear recoil experiments
-- Investigate indirect detection signatures from dark matter annihilation
-- Compute pair production cross-sections at colliders (LHC and future colliders)
-- Constrain parameter space using experimental data from multiple channels
-
-#### Methodology
-- Conducted comprehensive review of Standard Model limitations in explaining dark matter
-- Implemented model building using SARAH (Supersymmetry and Automatically Running HAWK)
-- Generated mass spectra and decay widths using SPheno
-- Calculated relic density using MicrOMEGAs through thermal freeze-out mechanism
-- Simulated collider signatures using MadGraph for LHC phenomenology
-- Performed parameter space scans incorporating constraints from:
-  - Relic density measurements (PLANCK)
-  - Direct detection experiments (XENON, LUX)
-  - Indirect detection (Fermi-LAT, IceCube)
-  - Collider searches (LHC)
-
-#### Technical Skills Developed
-- Beyond Standard Model phenomenology and model building
-- Lagrangian construction for extended gauge theories
-- Renormalization Group Equation (RGE) running
-- Thermal dark matter production mechanisms
-- Collider phenomenology and event simulation
-- Parameter space exploration and statistical analysis
-
-#### Tools & Software
-Python, SARAH, FeynRules, SPheno, MicrOMEGAs, MadGraph, Mathematica
-
-#### Status
-Manuscript in preparation
-
----
-
-## Completed Projects
-
-### Observational Evidence of Evolving Dark Matter at z less than 1 using MAGPI Survey
-**Collaborative Research** | December 2024 – April 2025  
-**Supervisor:** Dr. Gauri Sharma, Postdoctoral Researcher, Observatoire Astronomique de Strasbourg, France
-
-#### Overview
-Investigating the evolution of dark matter halo properties in star-forming galaxies at intermediate redshifts (z = 0.2–0.5) using data from the Middle Ages Galaxy Properties with Integral Field Spectroscopy (MAGPI) survey. This project addresses fundamental questions about dark matter distribution and evolution across cosmic time.
-
-#### Scientific Motivation
-The distribution of dark matter in galaxies provides crucial insights into galaxy formation and evolution. By studying galaxies at different redshifts, we can trace how dark matter halos have evolved over billions of years, potentially revealing new physics beyond the standard ΛCDM model.
-
-#### Methodology
-1. **Data Processing:**
-   - Analyzed integral field spectroscopy data from MAGPI survey
-   - Performed 3D kinematic modeling using 3D BAROLO
-   - Applied pressure gradient corrections to account for non-circular motions
-   - Extracted rotation curves for sample of star-forming galaxies
-
-2. **Dark Matter Modeling:**
-   - Decomposed rotation curves into baryonic and dark matter components
-   - Implemented multiple dark matter halo profiles:
-     - **NFW Profile:** Standard cuspy halo (Navarro-Frenk-White)
-     - **Burkert Profile:** Cored halo profile
-   - Modeled baryonic contribution from stellar disk and bulge
-
-3. **Parameter Estimation:**
-   - Performed Monte Carlo Markov Chain (MCMC) fitting using emcee
-   - Constrained dark matter halo parameters:
-     - Core radius (r_c)
-     - Core density (ρ_0)
-     - Virial mass (M_200)
-   - Derived stellar mass and mass-to-light ratios
-   - Analyzed correlations between parameters
-
-4. **Evolutionary Analysis:**
-   - Compared halo properties across redshift bins
-   - Investigated trends in dark matter concentration with redshift
-   - Examined discrepancies between observed profiles and theoretical predictions
-
-#### Key Findings
-- Characterized dark matter density profiles for sample of intermediate-redshift galaxies
-- Identified persistent tension between observational constraints and theoretical models
-- Documented evolution of halo properties with cosmic time
-- Provided constraints on dark matter models from galaxy-scale observations
-
-#### Technical Skills
-- Integral field spectroscopy data reduction
-- 3D kinematic modeling of galaxies
-- MCMC parameter estimation and Bayesian inference
-- Statistical analysis and error propagation
-- Multi-component mass modeling
-
-#### Tools & Software
-Python (emcee, scipy, astropy.cosmology), 3D BAROLO, TOPCAT, SAOImage DS9
-
-#### Status
-Manuscript in preparation
-
----
-
-### Search for MeV Gamma-Ray Emission from TeV-Bright Red Dwarfs with COMPTEL
-**Summer Research Project** | May 2024 – July 2024  
-**Supervisor:** Dr. Shantanu Desai, Professor, Indian Institute of Technology Hyderabad
-
-#### Overview
-Conducted the first systematic search for soft gamma-ray emission (0.75–30 MeV) from eight TeV-bright red dwarfs previously detected by the SHALON atmospheric Cherenkov telescope. This work investigates whether these red dwarfs could be sources of ultra-high energy cosmic rays by searching for multi-wavelength gamma-ray signatures.
-
-#### Scientific Context
-The SHALON telescope detected very high energy (TeV) gamma-ray emission from eight red dwarfs: V388 Cas, V547 Cas, V780 Tau, V962 Tau, V1589 Cyg, GJ 1078, GJ 3684, and GL 851.1. These detections are controversial and surprising, as red dwarfs are not typically considered high-energy sources. If confirmed, they would represent a new class of cosmic-ray accelerators.
-
-#### Research Objectives
-- Search for MeV gamma-ray counterparts to TeV emission
-- Constrain the spectral energy distribution across energy bands
-- Test whether red dwarfs can accelerate cosmic rays to ultra-high energies
-- Establish upper limits on soft gamma-ray flux for future observations
-
-#### Methodology
-
-1. **Data Analysis:**
-   - Processed nine years of archival data from COMPTEL (Compton Gamma-Ray Observatory)
-   - Accessed data from HEASARC (High Energy Astrophysics Science Archive Research Center)
-   - Applied standard COMPTEL data reduction pipeline
-
-2. **Signal Detection:**
-   - Computed Test Statistic (TS) at each red dwarf coordinate
-   - Generated TS maps within 30° radius to assess background
-   - Evaluated statistical significance of potential detections
-   - Applied rigorous background modeling
-
-3. **Contamination Analysis:**
-   - Identified nearby bright sources (Crab Nebula, Cygnus region)
-   - Assessed contamination from sources within COMPTEL's angular resolution
-   - Determined that apparent signals were due to nearby sources
-
-4. **Spectral Analysis:**
-   - Analyzed Spectral Energy Distributions (SEDs) in 16 logarithmically-spaced energy bins
-   - Computed differential photon flux at 30 MeV
-   - Calculated integral photon flux (0.75–30 MeV)
-   - Derived integral energy flux
-
-5. **Upper Limits:**
-   - Established 95% confidence level upper limits for all eight red dwarfs
-   - Reported limits on differential flux, integral photon flux, and energy flux
-   - Provided constraints for future multi-wavelength studies
-
-#### Key Results
-- **No significant detections:** No statistically significant signal (> 3σ) detected from any red dwarf
-- **Contamination identified:** Apparent signals attributed to Crab and Cygnus sources
-- **Upper limits established:** Comprehensive 95% C.L. upper limits provided for all targets
-- **Future directions:** Results constrain models of particle acceleration in red dwarfs
-
-#### Impact
-This work provides the first comprehensive constraints on MeV emission from TeV-bright red dwarfs, complementing previous GeV searches with Fermi-LAT. The results are crucial for understanding whether these controversial TeV detections represent genuine astrophysical phenomena.
-
-#### Technical Skills
-- High-energy astrophysics data analysis
-- Gamma-ray telescope calibration and systematics
-- Statistical significance testing (TS maps, likelihood analysis)
-- Background modeling and source contamination analysis
-- Multi-wavelength spectral energy distribution analysis
-- Scientific computing and data visualization
-
-#### Tools & Software
-ctools (C++/Python), SAOImage DS9, FTOOLS, FITSIO, Python (NumPy, Matplotlib, Astropy)
-
-#### Publication
-**Niharika Shrivastava**, Siddhant Manna, Shantanu Desai  
-*"Search for MeV gamma-ray emission from TeV bright red dwarfs with COMPTEL"*  
-**Journal of Cosmology and Astroparticle Physics (JCAP)**, Volume 2024, September 2024  
-DOI: [10.1088/1475-7516/2024/09/029](https://iopscience.iop.org/article/10.1088/1475-7516/2024/09/029)
-
-#### Presentation
-Presented at 33rd IAGRG Meeting, BITS Pilani, January 2025
-
----
-
-### Photometric and Kinematic Study of Open Cluster Dolidze 25
-**Summer Internship** | July 2023 – September 2023  
-**Supervisor:** Dr. Neelam Panwar, Scientist-D, Aryabhatta Research Institute of Observational Sciences (ARIES), Nainital
-
-#### Overview
-Conducted comprehensive photometric and kinematic analysis of the open star cluster Dolidze 25, located near the Galactic plane. This project involved membership determination, distance estimation, and age determination using state-of-the-art astrometric data from Gaia DR3.
-
-#### Scientific Background
-Open clusters are fundamental laboratories for stellar evolution studies. By analyzing their member stars collectively, we can determine properties like age, distance, and metallicity with higher precision than individual stars. Dolidze 25 is a relatively understudied cluster requiring modern analysis with Gaia data.
-
-#### Methodology
-
-1. **Data Acquisition:**
-   - Extracted stellar data from Gaia Data Release 3 (DR3)
-   - Retrieved photometric (G, BP, RP magnitudes) and astrometric (parallax, proper motions) data
-   - Compiled catalog of stars in region around Dolidze 25
-
-2. **Membership Analysis:**
-   - Applied statistical analysis to proper motion distributions
-   - Used parallax constraints to identify cluster members
-   - Implemented magnitude cuts to remove field star contamination
-   - Performed χ² analysis on proper motion errors
-   - Generated Vector Point Diagrams (VPDs) to visualize kinematic separation
-
-3. **Kinematic Properties:**
-   - Determined mean proper motions (μ_α cos δ, μ_δ) of cluster
-   - Calculated systemic radial velocity (from literature)
-   - Estimated Galactic orbit parameters
-   - Analyzed velocity dispersion within cluster
-
-4. **Photometric Analysis:**
-   - Constructed Color-Magnitude Diagram (CMD) using Gaia photometry
-   - Applied extinction corrections based on local dust maps
-   - Fitted theoretical isochrones from PARSEC/MIST models
-   - Used multiple isochrones to constrain age and metallicity
-   - Implemented χ² minimization for best-fit parameters
-
-5. **Physical Parameters:**
-   - Distance determination from parallax and isochrone fitting
-   - Age estimation from main sequence turn-off
-   - Reddening (E(B-V)) from color-magnitude fitting
-   - Total mass estimation from luminosity function
-
-#### Key Results
-- Identified kinematic cluster members with high confidence
-- Determined cluster distance, age, and reddening
-- Characterized stellar population and mass distribution
-- Provided updated physical parameters for Dolidze 25
-
-#### Technical Skills
-- Astrometric data analysis (proper motions, parallax)
-- Photometric analysis and color-magnitude diagram interpretation
-- Isochrone fitting and stellar evolution modeling
-- Statistical methods for membership determination
-- Galactic astronomy and cluster dynamics
-
-#### Tools & Software
-Jupyter Lab, Vizier, CMD 3.7 Input Form, Asteca, Python (Astropy, Pandas, Matplotlib), TOPCAT
-
-#### Outcome
-Comprehensive characterization of Dolidze 25, contributing to our understanding of open cluster populations in the Galactic disk
-
----
-
-### Detection of Pulsars from Radio Data
-**Winter Project** | December 2022 – January 2023  
-**Supervisor:** Dr. Mayuresh Surnis, Assistant Professor, IISER Bhopal
-
-#### Overview
-Introduction to radio astronomy and pulsar detection techniques through hands-on analysis of real telescope data. This project provided foundational experience in signal processing, time-series analysis, and radio frequency interference (RFI) mitigation.
-
-#### Learning Objectives
-- Understand pulsar physics and observational signatures
-- Learn radio data formats and processing pipelines
-- Develop skills in signal processing for astronomy
-- Gain proficiency with Linux command-line tools
-
-#### Methodology
-
-1. **Software Installation & Configuration:**
-   - Installed PRESTO (PulsaR Exploration and Search TOolkit) from GitHub
-   - Configured RFIClean for radio frequency interference removal
-   - Set up Linux environment for data processing pipeline
-
-2. **Data Processing Pipeline:**
-   - Loaded filterbank (.fil) format radio telescope data
-   - Applied RFI identification and mitigation algorithms
-   - Identified time intervals with reduced interference
-   - Extracted candidate periodic signals
-
-3. **Signal Analysis:**
-   - Performed Fast Fourier Transforms (FFT) on time series data
-   - Searched for periodic signals in frequency domain
-   - Applied de-dispersion at various dispersion measures (DM)
-   - Generated diagnostic plots for signal validation
-
-4. **Pulsar Detection:**
-   - Analyzed data from Green Bank Telescope (GBT)
-   - Processed observations from Parkes radio telescope
-   - Successfully detected known pulsars in archival data
-   - Measured pulsar periods and dispersion measures
-
-5. **Visualization & Analysis:**
-   - Created time series plots showing pulsar periodicity
-   - Generated pulse profiles by phase-folding data
-   - Produced DM vs. Signal-to-Noise ratio plots
-   - Analyzed timing residuals
-
-#### Key Learning Outcomes
-- Practical experience with radio astronomy data
-- Understanding of pulsar timing and dispersion
-- Proficiency with Linux command-line interface
-- Signal processing and Fourier analysis techniques
-- RFI mitigation strategies
-
-#### Technical Skills Acquired
-- Radio astronomy data formats (SIGPROC filterbank)
-- Time-series analysis and periodicity searching
-- Fast Fourier Transform algorithms
-- De-dispersion techniques for pulsar signals
-- Linux shell scripting and command-line tools
-
-#### Tools & Software
-PRESTO, RFIClean, Python, C, Linux shell, SIGPROC
-
-#### Impact
-This project provided foundational skills in observational radio astronomy and data analysis that have proven valuable throughout my subsequent research projects. The experience with real telescope data and signal processing techniques was instrumental in developing my capabilities as an observational astrophysicist.
-
----
-
-## Skills & Expertise
-
-### Research Areas
-- **Cosmology:** Dark matter, dark energy, large-scale structure
-- **High-Energy Astrophysics:** Gamma-ray astronomy, cosmic rays, multi-wavelength analysis
-- **Particle Physics:** Beyond Standard Model, collider phenomenology, dark matter candidates
-- **Observational Astronomy:** Photometry, spectroscopy, time-domain astronomy
-
-### Technical Proficiencies
-
-**Programming Languages:**
-- Python (advanced): NumPy, SciPy, Matplotlib, Astropy, emcee, Pandas
-- C/C++ (intermediate)
-- Mathematica (intermediate)
-- MATLAB (basic)
-- SQL (basic)
-
-**Specialized Software:**
-- **Particle Physics:** SARAH, FeynRules, SPheno, MicrOMEGAs, MadGraph
-- **Astrophysics:** ctools, 3D BAROLO, COMPTEL tools, PRESTO, RFIClean
-- **Data Analysis:** TOPCAT, SAOImage DS9, FTOOLS, Asteca
-- **Statistical Tools:** emcee (MCMC), scipy.optimize, corner plots
-
-**Development Tools:**
-- Git version control
-- LaTeX scientific typesetting
-- Jupyter notebooks
-- Visual Studio Code
-- Vim editor
-
-**Operating Systems:**
-- Linux (Ubuntu, command-line proficiency)
-- Windows
-
-### Analytical Skills
-- Statistical data analysis and hypothesis testing
-- Bayesian inference and MCMC methods
-- Time-series analysis
-- Signal processing and Fourier analysis
-- Machine learning (basic)
-- Data visualization
-- Scientific computing
-- Error analysis and propagation
-
-### Soft Skills
-- Scientific writing and documentation
-- Oral presentation and public speaking
-- Collaboration and teamwork
-- Project management
-- Critical thinking and problem-solving
-- Science communication and outreach
-
----
-
-## Future Research Directions
-
-I am interested in pursuing research that addresses fundamental questions at the intersection of cosmology, astrophysics, and particle physics:
-
-1. **Dark Matter Studies:**
-   - Multi-messenger constraints on dark matter models
-   - Galaxy-scale tests of dark matter theories
-   - Connections between collider searches and astrophysical observations
-
-2. **High-Energy Astrophysics:**
-   - Gamma-ray emission from exotic astrophysical sources
-   - Cosmic-ray acceleration mechanisms
-   - Multi-wavelength observations of transient phenomena
-
-3. **Observational Cosmology:**
-   - Large-scale structure surveys
-   - Galaxy evolution and dynamics
-   - Gravitational wave cosmology
-
-4. **Astroparticle Physics:**
-   - Beyond Standard Model signatures in astrophysics
-   - Neutrino astronomy
-   - Dark sector physics
-
----
-
-## Collaborations
-
-I am always interested in collaborative research opportunities. If you're working on related topics or have ideas for collaboration, please feel free to reach out:
-
-📧 niharikas21@iiserb.ac.in  
-🌐 [https://niharikashri22.github.io](https://niharikashri22.github.io)  
-💼 [LinkedIn](https://www.linkedin.com/in/niharika-shrivastava-23203a226/)
-
----
-
-*Last updated: February 2025*
+<h1>Research Projects</h1>
+
+<hr>
+
+<h2>Current Projects</h2>
+
+<h3>Dark Matter and Collider Phenomenology in Triplet Extensions of Standard Model</h3>
+<p><strong>Master's Thesis</strong> | May 2024 – Present<br>
+<strong>Supervisor:</strong> Dr. Rahul Srivastava, Assistant Professor, IISER Bhopal</p>
+
+<h4>Overview</h4>
+<p>Investigating viable dark matter candidates in Beyond Standard Model (BSM) frameworks, specifically focusing on scalar and fermion triplet extensions of the Standard Model with hypercharge Y = 2. This work explores the intersection of particle physics and cosmology by examining how dark matter candidates manifest in both cosmological observations and high-energy collider experiments.</p>
+
+<h4>Key Objectives</h4>
+<ul>
+<li>Identify and characterize viable dark matter candidates in SU(2)<sub>L</sub> triplet extensions</li>
+<li>Calculate relic density predictions and compare with PLANCK observations</li>
+<li>Analyze direct detection prospects through nuclear recoil experiments</li>
+<li>Investigate indirect detection signatures from dark matter annihilation</li>
+<li>Compute pair production cross-sections at colliders (LHC and future colliders)</li>
+<li>Constrain parameter space using experimental data from multiple channels</li>
+</ul>
+
+<h4>Methodology</h4>
+<ul>
+<li>Conducted comprehensive review of Standard Model limitations in explaining dark matter</li>
+<li>Implemented model building using SARAH (Supersymmetry and Automatically Running HAWK)</li>
+<li>Generated mass spectra and decay widths using SPheno</li>
+<li>Calculated relic density using MicrOMEGAs through thermal freeze-out mechanism</li>
+<li>Simulated collider signatures using MadGraph for LHC phenomenology</li>
+<li>Performed parameter space scans incorporating constraints from:
+  <ul>
+    <li>Relic density measurements (PLANCK)</li>
+    <li>Direct detection experiments (XENON, LUX)</li>
+    <li>Indirect detection (Fermi-LAT, IceCube)</li>
+    <li>Collider searches (LHC)</li>
+  </ul>
+</li>
+</ul>
+
+<h4>Technical Skills Developed</h4>
+<ul>
+<li>Beyond Standard Model phenomenology and model building</li>
+<li>Lagrangian construction for extended gauge theories</li>
+<li>Renormalization Group Equation (RGE) running</li>
+<li>Thermal dark matter production mechanisms</li>
+<li>Collider phenomenology and event simulation</li>
+<li>Parameter space exploration and statistical analysis</li>
+</ul>
+
+<h4>Tools & Software</h4>
+<p>Python, SARAH, FeynRules, SPheno, MicrOMEGAs, MadGraph, Mathematica</p>
+
+<h4>Status</h4>
+<p>Manuscript in preparation, expected submission by March 2025</p>
+
+<hr>
+
+<h2>Completed Projects</h2>
+
+<h3>Observational Evidence of Evolving Dark Matter at z &lt; 1 using MAGPI Survey</h3>
+<p><strong>Collaborative Research</strong> | December 2024 – April 2025<br>
+<strong>Supervisor:</strong> Dr. Gauri Sharma, Postdoctoral Researcher, Observatoire Astronomique de Strasbourg, France</p>
+
+<h4>Overview</h4>
+<p>Investigating the evolution of dark matter halo properties in star-forming galaxies at intermediate redshifts (z = 0.2–0.5) using data from the Middle Ages Galaxy Properties with Integral Field Spectroscopy (MAGPI) survey. This project addresses fundamental questions about dark matter distribution and evolution across cosmic time.</p>
+
+<h4>Scientific Motivation</h4>
+<p>The distribution of dark matter in galaxies provides crucial insights into galaxy formation and evolution. By studying galaxies at different redshifts, we can trace how dark matter halos have evolved over billions of years, potentially revealing new physics beyond the standard ΛCDM model.</p>
+
+<h4>Methodology</h4>
+<ol>
+<li><strong>Data Processing:</strong>
+  <ul>
+    <li>Analyzed integral field spectroscopy data from MAGPI survey</li>
+    <li>Performed 3D kinematic modeling using 3D BAROLO</li>
+    <li>Applied pressure gradient corrections to account for non-circular motions</li>
+    <li>Extracted rotation curves for sample of star-forming galaxies</li>
+  </ul>
+</li>
+
+<li><strong>Dark Matter Modeling:</strong>
+  <ul>
+    <li>Decomposed rotation curves into baryonic and dark matter components</li>
+    <li>Implemented multiple dark matter halo profiles:
+      <ul>
+        <li><strong>NFW Profile:</strong> Standard cuspy halo (Navarro-Frenk-White)</li>
+        <li><strong>Burkert Profile:</strong> Cored halo profile</li>
+      </ul>
+    </li>
+    <li>Modeled baryonic contribution from stellar disk and bulge</li>
+  </ul>
+</li>
+
+<li><strong>Parameter Estimation:</strong>
+  <ul>
+    <li>Performed Monte Carlo Markov Chain (MCMC) fitting using emcee</li>
+    <li>Constrained dark matter halo parameters:
+      <ul>
+        <li>Core radius (r<sub>c</sub>)</li>
+        <li>Core density (ρ<sub>0</sub>)</li>
+        <li>Virial mass (M<sub>200</sub>)</li>
+      </ul>
+    </li>
+    <li>Derived stellar mass and mass-to-light ratios</li>
+    <li>Analyzed correlations between parameters</li>
+  </ul>
+</li>
+
+<li><strong>Evolutionary Analysis:</strong>
+  <ul>
+    <li>Compared halo properties across redshift bins</li>
+    <li>Investigated trends in dark matter concentration with redshift</li>
+    <li>Examined discrepancies between observed profiles and theoretical predictions</li>
+  </ul>
+</li>
+</ol>
+
+<h4>Key Findings</h4>
+<ul>
+<li>Characterized dark matter density profiles for sample of intermediate-redshift galaxies</li>
+<li>Identified persistent tension between observational constraints and theoretical models</li>
+<li>Documented evolution of halo properties with cosmic time</li>
+<li>Provided constraints on dark matter models from galaxy-scale observations</li>
+</ul>
+
+<h4>Technical Skills</h4>
+<ul>
+<li>Integral field spectroscopy data reduction</li>
+<li>3D kinematic modeling of galaxies</li>
+<li>MCMC parameter estimation and Bayesian inference</li>
+<li>Statistical analysis and error propagation</li>
+<li>Multi-component mass modeling</li>
+</ul>
+
+<h4>Tools & Software</h4>
+<p>Python (emcee, scipy, astropy.cosmology), 3D BAROLO, TOPCAT, SAOImage DS9</p>
+
+<h4>Status</h4>
+<p>Manuscript in preparation</p>
+
+<hr>
+
+<h3>Search for MeV Gamma-Ray Emission from TeV-Bright Red Dwarfs with COMPTEL</h3>
+<p><strong>Summer Research Project</strong> | May 2024 – July 2024<br>
+<strong>Supervisor:</strong> Dr. Shantanu Desai, Professor, Indian Institute of Technology Hyderabad</p>
+
+<h4>Overview</h4>
+<p>Conducted the first systematic search for soft gamma-ray emission (0.75–30 MeV) from eight TeV-bright red dwarfs previously detected by the SHALON atmospheric Cherenkov telescope. This work investigates whether these red dwarfs could be sources of ultra-high energy cosmic rays by searching for multi-wavelength gamma-ray signatures.</p>
+
+<h4>Scientific Context</h4>
+<p>The SHALON telescope detected very high energy (TeV) gamma-ray emission from eight red dwarfs: V388 Cas, V547 Cas, V780 Tau, V962 Tau, V1589 Cyg, GJ 1078, GJ 3684, and GL 851.1. These detections are controversial and surprising, as red dwarfs are not typically considered high-energy sources. If confirmed, they would represent a new class of cosmic-ray accelerators.</p>
+
+<h4>Research Objectives</h4>
+<ul>
+<li>Search for MeV gamma-ray counterparts to TeV emission</li>
+<li>Constrain the spectral energy distribution across energy bands</li>
+<li>Test whether red dwarfs can accelerate cosmic rays to ultra-high energies</li>
+<li>Establish upper limits on soft gamma-ray flux for future observations</li>
+</ul>
+
+<h4>Key Results</h4>
+<ul>
+<li><strong>No significant detections:</strong> No statistically significant signal (&gt; 3σ) detected from any red dwarf</li>
+<li><strong>Contamination identified:</strong> Apparent signals attributed to Crab and Cygnus sources</li>
+<li><strong>Upper limits established:</strong> Comprehensive 95% C.L. upper limits provided for all targets</li>
+<li><strong>Future directions:</strong> Results constrain models of particle acceleration in red dwarfs</li>
+</ul>
+
+<h4>Tools & Software</h4>
+<p>ctools (C++/Python), SAOImage DS9, FTOOLS, FITSIO, Python (NumPy, Matplotlib, Astropy)</p>
+
+<h4>Publication</h4>
+<p><strong>Niharika Shrivastava</strong>, Siddhant Manna, Shantanu Desai<br>
+<em>"Search for MeV gamma-ray emission from TeV bright red dwarfs with COMPTEL"</em><br>
+<strong>Journal of Cosmology and Astroparticle Physics (JCAP)</strong>, Volume 2024, September 2024<br>
+DOI: <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2024/09/029" target="_blank">10.1088/1475-7516/2024/09/029</a></p>
+
+<h4>Presentation</h4>
+<p>Presented at 33rd IAGRG Meeting, BITS Pilani, January 2025</p>
+
+<hr>
+
+<h3>Photometric and Kinematic Study of Open Cluster Dolidze 25</h3>
+<p><strong>Summer Internship</strong> | July 2023 – September 2023<br>
+<strong>Supervisor:</strong> Dr. Neelam Panwar, Scientist-D, Aryabhatta Research Institute of Observational Sciences (ARIES), Nainital</p>
+
+<h4>Overview</h4>
+<p>Conducted comprehensive photometric and kinematic analysis of the open star cluster Dolidze 25, located near the Galactic plane. This project involved membership determination, distance estimation, and age determination using state-of-the-art astrometric data from Gaia DR3.</p>
+
+<h4>Key Results</h4>
+<ul>
+<li>Identified kinematic cluster members with high confidence</li>
+<li>Determined cluster distance, age, and reddening</li>
+<li>Characterized stellar population and mass distribution</li>
+<li>Provided updated physical parameters for Dolidze 25</li>
+</ul>
+
+<h4>Tools & Software</h4>
+<p>Jupyter Lab, Vizier, CMD 3.7 Input Form, Asteca, Python (Astropy, Pandas, Matplotlib), TOPCAT</p>
+
+<hr>
+
+<h3>Detection of Pulsars from Radio Data</h3>
+<p><strong>Winter Project</strong> | December 2022 – January 2023<br>
+<strong>Supervisor:</strong> Dr. Mayuresh Surnis, Assistant Professor, IISER Bhopal</p>
+
+<h4>Overview</h4>
+<p>Introduction to radio astronomy and pulsar detection techniques through hands-on analysis of real telescope data. This project provided foundational experience in signal processing, time-series analysis, and radio frequency interference (RFI) mitigation.</p>
+
+<h4>Key Learning Outcomes</h4>
+<ul>
+<li>Practical experience with radio astronomy data</li>
+<li>Understanding of pulsar timing and dispersion</li>
+<li>Proficiency with Linux command-line interface</li>
+<li>Signal processing and Fourier analysis techniques</li>
+<li>RFI mitigation strategies</li>
+</ul>
+
+<h4>Tools & Software</h4>
+<p>PRESTO, RFIClean, Python, C, Linux shell, SIGPROC</p>
+
+<hr>
+
+<h2>Skills & Expertise</h2>
+
+<h3>Research Areas</h3>
+<ul>
+<li><strong>Cosmology:</strong> Dark matter, dark energy, large-scale structure</li>
+<li><strong>High-Energy Astrophysics:</strong> Gamma-ray astronomy, cosmic rays, multi-wavelength analysis</li>
+<li><strong>Particle Physics:</strong> Beyond Standard Model, collider phenomenology, dark matter candidates</li>
+<li><strong>Observational Astronomy:</strong> Photometry, spectroscopy, time-domain astronomy</li>
+</ul>
+
+<h3>Technical Proficiencies</h3>
+
+<p><strong>Programming Languages:</strong></p>
+<ul>
+<li>Python (advanced): NumPy, SciPy, Matplotlib, Astropy, emcee, Pandas</li>
+<li>C/C++ (intermediate)</li>
+<li>Mathematica (intermediate)</li>
+<li>MATLAB (basic)</li>
+<li>SQL (basic)</li>
+</ul>
+
+<p><strong>Specialized Software:</strong></p>
+<ul>
+<li><strong>Particle Physics:</strong> SARAH, FeynRules, SPheno, MicrOMEGAs, MadGraph</li>
+<li><strong>Astrophysics:</strong> ctools, 3D BAROLO, COMPTEL tools, PRESTO, RFIClean</li>
+<li><strong>Data Analysis:</strong> TOPCAT, SAOImage DS9, FTOOLS, Asteca</li>
+<li><strong>Statistical Tools:</strong> emcee (MCMC), scipy.optimize, corner plots</li>
+</ul>
+
+<p><strong>Development Tools:</strong></p>
+<ul>
+<li>Git version control</li>
+<li>LaTeX scientific typesetting</li>
+<li>Jupyter notebooks</li>
+<li>Visual Studio Code</li>
+<li>Vim editor</li>
+</ul>
+
+<hr>
+
+<h2>Future Research Directions</h2>
+
+<p>I am interested in pursuing research that addresses fundamental questions at the intersection of cosmology, astrophysics, and particle physics:</p>
+
+<ol>
+<li><strong>Dark Matter Studies:</strong>
+  <ul>
+    <li>Multi-messenger constraints on dark matter models</li>
+    <li>Galaxy-scale tests of dark matter theories</li>
+    <li>Connections between collider searches and astrophysical observations</li>
+  </ul>
+</li>
+
+<li><strong>High-Energy Astrophysics:</strong>
+  <ul>
+    <li>Gamma-ray emission from exotic astrophysical sources</li>
+    <li>Cosmic-ray acceleration mechanisms</li>
+    <li>Multi-wavelength observations of transient phenomena</li>
+  </ul>
+</li>
+
+<li><strong>Observational Cosmology:</strong>
+  <ul>
+    <li>Large-scale structure surveys</li>
+    <li>Galaxy evolution and dynamics</li>
+    <li>Gravitational wave cosmology</li>
+  </ul>
+</li>
+
+<li><strong>Astroparticle Physics:</strong>
+  <ul>
+    <li>Beyond Standard Model signatures in astrophysics</li>
+    <li>Neutrino astronomy</li>
+    <li>Dark sector physics</li>
+  </ul>
+</li>
+</ol>
+
+<hr>
+
+<h2>Collaborations</h2>
+
+<p>I am always interested in collaborative research opportunities. If you're working on related topics or have ideas for collaboration, please feel free to reach out:</p>
+
+<p>📧 niharikas21@iiserb.ac.in<br>
+🌐 <a href="https://niharikashri22.github.io" target="_blank">https://niharikashri22.github.io</a><br>
+💼 <a href="https://www.linkedin.com/in/niharika-shrivastava-23203a226/" target="_blank">LinkedIn</a></p>
+
+<hr>
+
+<p><em>Last updated: February 2025</em></p>
