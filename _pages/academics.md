@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-# Academic Background
+
 
 ## Degree Program
 **BS-MS Integrated Program in Physics**  
