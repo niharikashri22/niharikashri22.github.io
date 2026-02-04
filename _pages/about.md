@@ -41,7 +41,4 @@ I'm currently applying to PhD programs in physics, seeking to continue my resear
 
 ---
 
-**Contact:** niharikas21@iiserb.ac.in  
-**Location:** IISER Bhopal, India
 
-[CV] [Publications] [Projects] [Contact]
