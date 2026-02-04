@@ -27,11 +27,11 @@ I'm currently completing my master's thesis on dark matter and collider phenomen
 
 ### Recent Highlights
 
-**Published Research:** My first-author paper in the *Journal of Cosmology and Astroparticle Physics* (2024) reported the first systematic search for MeV gamma-ray emission from TeV-bright red dwarfs using COMPTEL data—establishing stringent upper limits on soft gamma-ray flux from these enigmatic sources.
+**Published Research:** My first-author paper in the *Journal of Cosmology and Astroparticle Physics* (2024) reported the first systematic search for MeV gamma-ray emission from TeV-bright red dwarfs using COMPTEL data, establishing stringent upper limits on soft gamma-ray flux from these enigmatic sources.
 
 ### What Drives Me
 
-The questions that motivate my work are fundamental: What is the Universe made of? How did it evolve to its current state? What physics lies beyond the Standard Model? I pursue these questions through data-driven astrophysics, theoretical modeling, and computational analysis—always seeking to bridge observations with fundamental theory.
+The questions that motivate my work are fundamental: What is the Universe made of? How did it evolve to its current state? What physics lies beyond the Standard Model? I pursue these questions through data-driven astrophysics, theoretical modeling, and computational analysis, always seeking to bridge observations with fundamental theory.
 
 ### Looking Ahead
 
