@@ -151,6 +151,11 @@ Through coursework and independent projects, I have developed expertise in:
 - Completed **ZTF Summer School** - University of Minnesota (2023)
 - **Data-Driven Astronomy** Certificate - University of Sydney/Coursera (2023)
 
+  
+## Language Proficiency
+- **English:** IELTS Academic – **Band 8.0**
+
+
 ---
 
 ## Thesis Work
